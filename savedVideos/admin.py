@@ -1,3 +1,6 @@
 from django.contrib import admin
+from savedVideos.models import SavedVideos
 
-# Register your models here.
+admin.site.register(SavedVideos)
+
+

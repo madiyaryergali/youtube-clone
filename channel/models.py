@@ -1,7 +1,7 @@
 from django.db import models
 from user.models import User
 
-class Channel(models.model):
+class Channel(models.Model):
     channel_id = models.IntegerField(primary_key=True)
     name = models.CharField(max_length=50)
     logo = models.ImageField(upload_to='images_uploaded', null=True)

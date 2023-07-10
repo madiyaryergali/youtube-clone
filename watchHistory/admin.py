@@ -1,3 +1,4 @@
 from django.contrib import admin
+from watchHistory.models import WatchHistory
 
-# Register your models here.
+admin.site.register(WatchHistory)
