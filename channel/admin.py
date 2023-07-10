@@ -1,4 +1,4 @@
 from django.contrib import admin
-from comment.models import Comment
+from channel.models import Channel
 
-admin.site.register(Comment)
+admin.site.register(Channel)
